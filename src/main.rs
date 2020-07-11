@@ -8,6 +8,8 @@ use rocket_contrib::serve::StaticFiles;
 
 mod login;
 
+This is not valid rust;
+
 fn main() {
     rocket::ignite()
         .mount("/", routes![login::route])
